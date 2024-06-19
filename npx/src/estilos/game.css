@@ -1,0 +1,78 @@
+/* Contenedor principal con fondo medieval */
+.medieval-game-container {
+    background: url('https://images2.alphacoders.com/133/1339621.png') no-repeat center center;
+    background-size: cover;
+    padding: 20px;
+    border: 2px solid #8B4513; /* Color marrón oscuro */
+    border-radius: 10px;
+    color: #7e3b00; /* Color del texto */
+  }
+  
+  /* Título con estilo medieval */
+  .medieval-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Contenedor con estilo medieval */
+  .medieval-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Caja medieval para mensajes e imágenes */
+  .medieval-box {
+    background-color: rgba(255, 248, 220, 0.8); /* Color de fondo medieval */
+    border: 2px solid #8B4513; /* Borde marrón oscuro */
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 60%;
+    text-align: center;
+  }
+  
+  /* Área de texto con estilo medieval */
+  .medieval-textarea {
+    width: 60%;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid #000000; /* Borde marrón oscuro */
+    border-radius: 10px;
+    font-size: 16px;
+    color: #000000; /* Color del texto */
+    margin-bottom: 20px;
+  }
+  
+  /* Botones con estilo medieval */
+  .medieval-button {
+    background-color: #a34700; /* Color de fondo marrón oscuro */
+    color: #000000; /* Color del texto */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Uncial Antiqua', serif; /* Fuente medieval */
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .medieval-button:hover {
+    background-color: #ff7b00; /* Color al pasar el ratón */
+  }
+  
+ .ImageGeneratorWithProdia {
+  background-color: #a34700; /* Color de fondo marrón oscuro */
+  color: #000000; /* Color del texto */
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: 'Uncial Antiqua', serif; /* Fuente medieval */
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s ease;
+ }
+  

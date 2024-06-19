@@ -1,0 +1,55 @@
+/* Contenedor principal con fondo medieval */
+.medieval-character-container {
+    background: url('https://www.nosolobits.com/imagenes/publicacion/artwork-wallpaper-de-los-personajes-de-dark-souls_3940863217.jpg');
+    background-size: cover;
+    padding: 20px;
+    border: 2px solid #8B4513; /* Color marrón oscuro */
+    border-radius: 10px;
+    color: #7b0e00; /* Color del texto */
+    font-family: 'Uncial Antiqua', serif; /* Fuente medieval */ 
+    background-color: #000000; /* Color del fondo del contenedor */
+  }
+ 
+  
+  /* Título con estilo medieval */
+  .medieval-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Entrada de texto con estilo medieval */
+  .medieval-input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #8B4513; /* Borde marrón oscuro */
+    border-radius: 10px;
+    font-family: 'Uncial Antiqua', serif; /* Fuente medieval */
+    font-size: 16px;
+    color: #8B4513; /* Color del texto */
+    background-color: rgba(255, 248, 220, 0.8); /* Fondo medieval */
+  }
+  
+  /* Botones con estilo medieval */
+  .medieval-button {
+    width: 60%;
+    background-color: #a34700; /* Color de fondo marrón oscuro */
+    color: #000000; /* Color del texto */
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-family: 'Uncial Antiqua', serif; /* Fuente medieval */
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .medieval-button:hover {
+    background-color: #DAA520; /* Color al pasar el ratón */
+  }
+  
+  /* Fuente medieval */
+  @import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+  

@@ -1,0 +1,38 @@
+/* Fondo medieval para el navbar */
+.medieval-navbar {
+  background: url('https://c0.klipartz.com/pngpicture/745/211/gratis-png-fondo-medieval-europeo-de-la-frontera.png') no-repeat center center;
+  background-size: cover;
+  padding: 10px;
+  border: 2px solid #8B4513; /* Color marrón oscuro */
+  border-radius: 10px;
+}
+
+/* Lista de navegación medieval */
+.medieval-nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+/* Elementos de la lista de navegación */
+.medieval-nav-item {
+  margin: 0 15px;
+}
+
+/* Enlaces de navegación medievales */
+.medieval-nav-link {
+  text-decoration: none;
+  font-family: 'Uncial Antiqua', serif; /* Fuente medieval */
+  font-size: 20px;
+  color: #4e2500; /* Color de texto medieval */
+  transition: color 0.3s ease;
+}
+
+.medieval-nav-link:hover {
+  color: #986d00; /* Color de texto al pasar el ratón */
+}
+
+/* Fuente medieval */
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
